@@ -2,4 +2,64 @@
   margin: 0;  /* Espaçamentos externos */
   padding: 0; /* Espaçamentos internos */
   box-sizing: border-box; /* Tamanho da caixa */
+
+  body
+   {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #c8d9db; /* Cor de fundo */;
+  };
+
+  div 
+  {
+    background-color: aquamarine; /* Cor de fundo */
+    max-width: 400px; /* Largura máxima */
+    margin: 20px; /* Margem superior e inferior de 20px, centralizado */
+    padding: 15px; /* Espaçamento interno de 15px */
+    border-radius: 15px; /* Bordas arredondadas */
+  }
+
+  input 
+  {
+    border-color: blue; /* Cor da borda */
+    border-radius: 5px; /* Bordas arredondadas */
+  };
+
+  .add 
+  {
+    background-color: #5e5f1f; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  } 
+  {
+    background-color: #5e5f1f; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  } 
+  {
+    background-color: #c0c0babd; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  }
+
+
+  button 
+  {
+    background-color: #5e5f1f; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  }
+
+
 }
